@@ -1,0 +1,64 @@
+.principal-div{
+    display: grid;
+    grid-template-columns: 100px 100px 200px;
+    margin-bottom: 30px;
+}
+
+.Div-one{
+    background-color: saddlebrown;
+}
+
+.Div-two{
+    background-color: aquamarine;
+}
+
+.Div-tree{
+    background-color: aqua;
+}
+
+.Div-force{
+    background-color: navajowhite;
+}
+
+.Div-five{
+    background-color: blue;
+}
+
+.diferent-grid{
+    display: grid;
+    grid-template-columns: 100px 100px 1fr;
+    margin-bottom: 30px;
+}
+
+.Div-six{
+    background-color: lawngreen;
+}
+.Div-seven{
+    background-color: darkblue;
+    color: white;
+
+}
+.Div-eight{
+    background-color:salmon;
+}
+
+.diferent-grid2{
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr;
+    margin-bottom: 30px;
+}
+
+.diferent-grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+    height: 300px;
+    column-gap: 20px;
+    row-gap: 40px;
+
+}
+/* El display grid es una propiedad de CSS que permite crear un sistema de cuadrícula bidimensional para organizar los elementos de una página web. Con el display grid, puedes definir filas y columnas, así como el espacio entre ellas, y alinear y distribuir los elementos dentro de la cuadrícula12.
+
+El display inline-block es otra propiedad de CSS que hace que los elementos se comporten como elementos en línea, pero conservando las características de los elementos de bloque, como el ancho, el alto y los márgenes verticales . Los elementos con display inline-block se colocan unos al lado de otros, respetando el flujo del texto, pero también pueden ser posicionados y transformados.
+
+La principal diferencia entre el display grid y el display inline-block es que el primero crea una cuadrícula explícita, mientras que el segundo se basa en el flujo implícito de los elementos. El display grid ofrece más control y flexibilidad para crear diseños complejos y responsivos, mientras que el display inline-block es más simple y adecuado para casos donde solo se necesita alinear algunos elementos. */

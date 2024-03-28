@@ -1,0 +1,72 @@
+/*
+button:hover{
+    opacity: 0;
+    background-color: rgb(51, 235, 18);
+}
+
+la propiedad transition me ayuda a determinar el tiempo que tarda el elemento en cambiar.
+Utilizar padding para evitar forzar el ancho del boton y el boton se adatara automaticamente por defecto al tamaño de lo que este dentro de el.
+*/
+
+button:hover{
+    transition: background-color 1s, box-shadow 0.3s;
+}
+
+button:active{
+    background-color: rgb(51, 235, 18);
+    color: rgb(41, 118, 211);
+}
+
+.subscribe-button{
+    background-color: red ;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.subscribe-button:hover{
+    opacity: 0.5;
+}
+
+
+.join-button{
+    background-color: white;
+    color: rgb(41, 118, 211);
+    cursor: pointer;
+    border: 1px solid rgb(41, 118, 211);
+    height: 36px;
+    width: 62px;
+    margin-right: 8px;
+    border-radius: 2px;
+}
+
+.join-button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.Twitter-button{
+    background-color: rgb(2, 158, 255);
+    color: white;
+    cursor: pointer;
+    border: none;
+    height: 36px;
+    width: 74px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.Twitter-button:hover{
+    opacity: 0.5;
+    box-shadow: 10px 10px 5px rgb(0, 4, 255);
+}
+
+

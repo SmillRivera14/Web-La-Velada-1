@@ -1,0 +1,90 @@
+body{
+    padding-bottom: 1000px;
+}
+
+.principal-flexbox{
+    display: flex;
+    flex-direction: row;   
+    margin-top: 30px; 
+}
+
+.div1{
+    background-color: aquamarine;
+}
+.div2{
+    background-color: aqua;
+}
+.div3{
+    background-color: brown;
+    width: 100px;
+}
+.div4{
+    background-color: sandybrown;
+    flex: 1;
+}
+.div5{
+    background-color: gold;
+    
+}
+.div6{
+    background-color: fuchsia;
+    flex: 1;
+}
+.div7{
+    background-color: orange;
+    flex: 2;
+}
+.example-encabezado{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    justify-content: center ;
+}
+
+.div8{
+   background-color: lightblue ; 
+   width: 100px;
+}
+.div9{
+    background-color:lightpink ; 
+    width: 100px;
+}
+.div10{
+    background-color: lightblue; 
+    width: 100px;
+}
+.example-encabezado2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    justify-content: space-between;
+}
+.example-encabezado3{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  
+/*
+flex: 1 tomara la cantidad de elemento restante
+flex:2 tomara el doble de la cantidad de elemento restante
+
+entre las diferencias con el grid están:
+-El diseño es más ridigo con el grid (necesitas ser más especifico)
+
+*/
